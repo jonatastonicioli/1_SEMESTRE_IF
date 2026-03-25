@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1774394486 source:c:\users\aluno\desktop\jônatas\24.03.2026\24.03.2026\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1774397890 source:c:\users\aluno\desktop\jônatas\24.03.2026\24.03.2026\calculo.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1774395679 source:c:\users\aluno\desktop\jônatas\24.03.2026\24.03.2026\dado aleatorio.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
