@@ -3,6 +3,8 @@
 #include <time.h>
 #include <math.h>
 
+
+
 void exerc2()
 {
 /*Crie um programa em C que leia dois valores reais (y e z) e que calcule o valor de x, considerando que:
@@ -58,6 +60,12 @@ printf("\nO valor da distancia e: %lf", raiz);
 }
 void exerc4()
 {
+    /*Faça um programa que receba a medida do ângulo (em graus) formado por uma escada
+apoiada no chão e encostada na parede e a altura da parede onde está a ponta da escada.
+Calcule e mostre a medida dessa escada.
+Observação: as funções trigonométricas implementadas na linguagem C de trabalham com
+medidas de ângulos em radianos. */
+
 #define PI 3.1415
 double ang, altura, escada, radianos, seno;
 
@@ -69,7 +77,6 @@ scanf("%lf", &altura);
 // tranformando graus para radianos
 radianos = PI * (ang/180);
 
-// calculando o seno
 seno = sin(radianos);
 
 escada = (altura/seno);
