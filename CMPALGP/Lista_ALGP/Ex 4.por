@@ -73,6 +73,12 @@ programa
 		escreva("\nO valor do novo salário será: ", salarion)
 
 		pare
+
+		caso contrario:
+
+		escreva("\nEscreva um código de funcionário válido")
+
+		
 		}
 	}
 }
@@ -81,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 611; 
+ * @POSICAO-CURSOR = 1590; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
