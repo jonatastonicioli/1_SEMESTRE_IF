@@ -1,6 +1,14 @@
 programa
 {
-	///Jônatas Tonicioli
+	/*  Exercício 01: Um lojista comprou um produto e deseja vendê-lo aplicando uma
+margem de lucro. Se o valor de compra for menor que R$50,00, o lucro será de
+40%. Caso contrário, o lucro será de 25%.
+Faça um programa que:
+• Leia o valor de compra do produto.
+• Calcule o valor de venda com base na regra acima.
+• Exiba o valor de venda final. */
+
+
 	funcao inicio()
 	{
 		real valor, valorf1, valorf2
@@ -29,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 52; 
+ * @POSICAO-CURSOR = 556; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

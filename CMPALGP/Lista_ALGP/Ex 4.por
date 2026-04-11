@@ -1,5 +1,8 @@
 programa
 {
+	/* Exercício 04: Escreva um algoritmo que receba o código correspondente ao
+cargo de um funcionário de uma escola e seu salário atual e mostre o
+valor do novo salário, com aumento, conforme tabela abaixo */
 	
 	funcao inicio()
 	{
@@ -66,7 +69,7 @@ programa
 
 		caso 5:
 
-		escreva("O cargo do funcionário é Coordenador")
+		escreva("O cargo do funcionário é Diretor")
 
 		salarion = (salario * 1)
 
@@ -87,7 +90,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1590; 
+ * @POSICAO-CURSOR = 218; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

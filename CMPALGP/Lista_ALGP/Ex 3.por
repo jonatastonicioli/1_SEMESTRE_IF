@@ -1,6 +1,16 @@
 programa
 {
-	
+	/* Exercício 03: Faça um algoritmo, em portugol, para ler: a descrição do produto
+(nome), a quantidade adquirida e o preço unitário. Calcule e mostre na tela:
+• a descrição do produto;
+• o total (total = quantidade adquirida * preço unitário);
+• o desconto (desconto = total * (porcentagem/100));
+• o total a pagar (total a pagar= total - desconto).
+ Use as porcentagens de desconto abaixo:
+• Se quantidade <= 5 o desconto será de 2%
+• Se quantidade > 5 e quantidade <=10 o desconto será de 3%
+• Se quantidade > 10 o desconto será de 5% */
+
 	
 	funcao inicio()
 
@@ -27,7 +37,7 @@ programa
 
 	se (qtd <= 5){
 
-	valordesconto = (total * 0.2)
+	valordesconto = (total * 0.02)
 
 	escreva("\nO desconto será de: ", valordesconto)
 	
@@ -37,7 +47,7 @@ programa
 	
 	}senao se (qtd > 5 e qtd <= 10) {
 
-	valordesconto = (total * 0.3)
+	valordesconto = (total * 0.03)
 
 	escreva("\nO desconto será de: ", valordesconto)
 	
@@ -47,7 +57,7 @@ programa
 
 	}senao{
 
-	valordesconto = (total * 0.5)
+	valordesconto = (total * 0.05)
 
 	escreva("\nO desconto será de: ", valordesconto)
 	
@@ -65,7 +75,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 32; 
+ * @POSICAO-CURSOR = 1496; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
