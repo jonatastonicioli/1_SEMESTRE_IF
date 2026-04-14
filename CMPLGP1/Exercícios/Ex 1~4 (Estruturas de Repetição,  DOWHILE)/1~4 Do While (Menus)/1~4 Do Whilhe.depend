@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1776180940 source:c:\users\lucas\desktop\1_semestre_if\cmplgp1\exercícios\ex 1~4 (estruturas de repetição,  dowhile)\1~4 do whilhe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	<ctype.h>
+
