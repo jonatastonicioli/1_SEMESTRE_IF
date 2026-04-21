@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1776801881 source:c:\users\lucas\onedrive\Área de trabalho\ex 4 (simulado)\ex 4 (simulado)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	<time.h>
+
