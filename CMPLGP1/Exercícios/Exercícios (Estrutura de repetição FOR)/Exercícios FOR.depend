@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1776975566 source:c:\users\lucas\onedrive\Área de trabalho\1_semestre_if\cmplgp1\exercícios\ex (estruturas de repetição for)\exercícios for\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
