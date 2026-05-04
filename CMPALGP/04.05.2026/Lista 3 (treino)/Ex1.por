@@ -3,22 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		/* 3. Criar um algoritmo em pseudocódigo (Portugol) e fluxograma utilizando laço
-enquanto para ler vários números inteiros até entrar com o número -999. Para
-cada número dado pelo usuário, fornecer seus divisores.
-Exemplo numero:8
-Divisores : 1, 2, 4, 8 */
-inteiro num
+/* Exercício 01: Escreva um algoritmo que leia dez valores numéricos inteiros e apresente na tela o
+somatório dos valores.*/
+inteiro soma = 0, num
 
-num = 0
-
-
-faca{
-	escreva("Digite o número: ")
+para(inteiro i = 1; i<=10; i++)
+{
+	escreva("Digite o ", i , " número a ser somado:")
 	leia(num)
-	
-	
-}enquanto (num != -999)
+
+	soma += num
+
+}
+
+escreva("A soma dos 10 valores é: ",soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +24,7 @@ faca{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 353; 
+ * @POSICAO-CURSOR = 348; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -9,14 +9,15 @@ números ímpares menores do que esse número.
  Exemplo: Limite superior: 15
 Saída: 1 3 5 7 9 11 13  */
 
-inteiro num
+inteiro num, contador =0
 
 escreva("Digite o número que será o limite superior: ")
 leia(num)
 
 para(inteiro i=0; i<num; i++){
 	se(i%2 != 0){
-		escreva("\n",i)
+		contador++
+		escreva("\nO ",contador, " número ímpar é: ",i)
 	}
 }
 
@@ -27,7 +28,7 @@ para(inteiro i=0; i<num; i++){
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 421; 
+ * @POSICAO-CURSOR = 515; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
