@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1779113498 source:c:\users\lucas\desktop\1_semestre_if\cmplgp1\exercícios\strings_e_vetores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+

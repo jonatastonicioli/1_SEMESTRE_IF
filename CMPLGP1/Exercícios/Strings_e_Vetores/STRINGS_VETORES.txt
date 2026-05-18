@@ -1,0 +1,8 @@
+Strings funções:
+-Total de caracteres = strlen(str1)
+-Cópia de strings = strcpy(destino, origem)
+-Comparação de strings = strcmp(str1,str2)
+-Concatenação de strings = strcat(str1, str2)
+
+Printar string %s
+Printar caracter %c
