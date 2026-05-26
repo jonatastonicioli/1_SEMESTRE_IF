@@ -57,9 +57,117 @@ printf("\nA soma dos valores nas posicoes X e Y eh: ");
 }
 
 void ex3()
-x
+
+{ /* 03-) Escreva um programa que que preencha um vetor de 20 números inteiros com valores aleatórios entre 1 e 100. Em seguida,
+    imprima o vetor, o menor elemento e a posição que ele se encontra. */
+    int vetor[20];
+    int a = 1, b = 100, n, menor, posMenor=0;
+     srand(time(NULL));
+      for (int i = 0 ; i<20 ; i++)
+        {
+      n = a + rand( ) % ( b - a + 1 );
+      vetor [i] = n;
+
+       }
+       menor = vetor[0];
+       printf("O vetor é: ");
+
+        for (int i = 0 ; i<20 ; i++)
+            {
+                printf(" %d", vetor [i] );
+                if (menor>vetor[i])
+                    { menor = vetor[i];
+                posMenor = i;
+                }
+                }
+    printf("\nO menor valor é: %d e ele está na posição %d do vetor", menor , posMenor);
+}
+
+void ex4()
+{
+ /* 04-) Faça um programa em linguagem C que leia um dado um vetor de tamanho N e imprima qual o
+maior elemento do vetor e quantas vezes ele aparece no mesmo. */
+
+int tam, valor, maiorValor, contador =0;
+
+printf("Digite o tamanho de vetor: ");
+scanf("%d", &tam);
+
+
+int vetor [tam];
+
+
+for(int i = 0 ; i<tam ; i++)
+{
+    printf("Digite o valor que será da posição %d do vetor: ", i);
+    scanf("%d", &valor);
+
+    vetor [i] = valor;
+
+
 
 }
+
+maiorValor = vetor[0];
+
+for(int i=0 ; i<tam; i++)
+{
+    if (maiorValor<vetor[i]) maiorValor=vetor[i];
+}
+
+for(int i=0 ; i<tam; i++)
+{
+    if (maiorValor == vetor[i]) contador++;
+}
+printf("O maior valor do vetor é: %d", maiorValor);
+printf("\nEle aparece %d vez(es) no vetor", contador);
+
+
+
+}
+
+void ex5()
+{
+    /* 05-) Faça um programa para ler 10 números inteiros DIFERENTES a serem armazenados em um vetor. Os
+números deverão ser armazenados no vetor na ordem que forem sendo lidos, sendo que caso o usuário
+digite um número que já foi digitado anteriormente, o programa deverá pedir para ele digitar outro
+número. Por fim, o programa deverá exibir na tela o vetor final que foi digitado. */
+
+ int vetor [10];
+ int valor, parada;
+ int i;
+
+
+ for(i = 0 ; i<10; i++)
+ {
+do{
+     printf("Digite o numero da posição %d do vetor: ", i);
+     scanf("%d", &valor);
+     parada = 0;
+
+  for(int j=0; j<i; j++) // comparando o valor atual com todos os anteriores, se for igual vai mudar o codigo de parada para 1
+  {
+      if(vetor[j] == valor)
+      {
+        printf("Esse número já foi escrito no vetor!!!\n");
+        parada = 1;
+      }
+  }
+
+     vetor[i] = valor;
+
+}while (parada == 1);
+
+    }
+
+
+ printf("O vetor é: ");
+  for(i = 0 ; i<10; i++)
+  {
+   printf(" %d", vetor[i]);
+  }
+}
+
 
 
 int main()
@@ -71,6 +179,8 @@ setlocale(LC_ALL,"");
 
 //ex1();
 //ex2();
-ex3();
+//ex3();
+//ex4();
+ex5();
     return 0;
 }

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1779796886 source:c:\users\lucas\desktop\1_semestre_if\cmplgp1\exercícios\structs\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
