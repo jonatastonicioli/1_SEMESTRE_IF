@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1780261656 source:c:\users\lucas\onedrive\Área de trabalho\1_semestre_if\cmplgp1\exercícios\structs_com_vetores\ex_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
