@@ -1,0 +1,5 @@
+Folha de Cola P2
+
+-Comando ler string scanf(" %127[^\n]", string)
+- Comando strlen, strcomp
+-Colocar o ex 1 da lista de função (switch case + void)

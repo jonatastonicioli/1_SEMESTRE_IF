@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1780399103 source:c:\users\lucas\desktop\1_semestre_if\cmplgp1\exercícios\simulado p2\ex1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

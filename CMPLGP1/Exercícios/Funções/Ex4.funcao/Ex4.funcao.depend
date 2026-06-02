@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1780416072 source:c:\users\lucas\desktop\1_semestre_if\cmplgp1\exercícios\funções\ex4.funcao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<ctype.h>
+
