@@ -1,0 +1,3 @@
+- O comando PARE funciona no for (util para para o laço se achar um numero)
+- Usar variavel logico para não executar um comando posterior (Ex.: achou o numero que
+que vc estava procurando no vetor, mas dps tem um if para falar que nao achou)
