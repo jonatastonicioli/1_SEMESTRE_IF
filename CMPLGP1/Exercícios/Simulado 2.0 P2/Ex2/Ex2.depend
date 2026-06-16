@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1781051037 source:c:\users\lucas\desktop\1_semestre_if\cmplgp1\exercícios\simulado 2.0 p2\ex2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
